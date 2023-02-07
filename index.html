@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentiz | Perfect way to buy and sell a home</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/swiper.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+            <div class="header__menu">
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Buying</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Renting</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Selling</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header__btns">
+                    <button class="login header__btn">Login</button>
+                    <button class="registr header__btn">Sign Up</button>
+                </div>
+                <div class="burger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Perfect way to buy and sell a home</h1>
+                    <p class="hero__text text">
+                        Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui pellentesque.
+                        Ac, gravida in eget non
+                        amet eget purus non.
+                    </p>
+                    <div class="hero__filter filter">
+                        <div class="filter__block block-filter">
+                            <div class="block-filter__button">
+                                <div class="block-filter__header">
+                                    <div class="block-filter__type">Purpose</div>
+                                    <div class="block-filter__icon"></div>
+                                </div>
+                                <div class="block-filter__value">Buy</div>
+                            </div>
+                            <div class="block-filter__dropdown">
+                                <div class="block-filter__item">Buy</div>
+                                <div class="block-filter__item">Sell</div>
+                            </div>
+                        </div>
+
+                        <div class="filter__block block-filter">
+                            <div class="block-filter__button">
+                                <div class="block-filter__header">
+                                    <div class="block-filter__type">Location</div>
+                                    <div class="block-filter__icon"></div>
+                                </div>
+                                <div class="block-filter__value">Toronto, Canada</div>
+                            </div>
+                            <div class="block-filter__dropdown">
+                                <div class="block-filter__item">Toronto, Canada</div>
+                                <div class="block-filter__item">Paris, France</div>
+                                <div class="block-filter__item">Amsterdam, Netherlands</div>
+                            </div>
+                        </div>
+
+                        <div class="filter__block block-filter">
+                            <div class="block-filter__button">
+                                <div class="block-filter__header">
+                                    <div class="block-filter__type">Type</div>
+                                    <div class="block-filter__icon"></div>
+                                </div>
+                                <div class="block-filter__value">Industrial home</div>
+                            </div>
+                            <div class="block-filter__dropdown">
+                                <div class="block-filter__item">Industrial home</div>
+                                <div class="block-filter__item">Garage</div>
+                                <div class="block-filter__item">Barn</div>
+                            </div>
+                        </div>
+
+                        <div class="filter__btn">
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__img">
+                    <img src="img/hero.jpg" alt="House">
+                </div>
+            </div>
+
+            <div class="hero-deco">
+                <svg width="128" height="501" viewBox="0 0 128 501" fill="currentColor">
+                    <use xlink:href="img/icons/sprite.svg#hero-deco"></use>
+                </svg>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container featured__container">
+                <h2 class="featured__title title">Featured In</h2>
+                <div class="featured__box">
+                    <div class="featured__item">
+                        <img class="featured__img" src="img/featured/1.svg" alt="Image">
+                    </div>
+                    <div class="featured__item">
+                        <img class="featured__img" src="img/featured/2.svg" alt="Image">
+                    </div>
+                    <div class="featured__item">
+                        <img class="featured__img" src="img/featured/3.svg" alt="Image">
+                    </div>
+                    <div class="featured__item">
+                        <img class="featured__img" src="img/featured/4.svg" alt="Image">
+                    </div>
+                    <div class="featured__item">
+                        <img class="featured__img" src="img/featured/5.svg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="residence">
+            <div class="container residence__container">
+                <h2 class="residence__title title">Popular Residence</h2>
+                <div class="residence__slider">
+                    <div class="residence-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/1.jpg" alt="Slide 1">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Aliva Priva Jalvin
+                                    </div>
+                                    <div class="residence-slide__descr text">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/2.jpg" alt="Slide 2">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Hard line orchar
+                                    </div>
+                                    <div class="residence-slide__descr">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/3.jpg" alt="Slide 3">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Allpine lenevote
+                                    </div>
+                                    <div class="residence-slide__descr">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/1.jpg" alt="Slide 4">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Aliva Priva Jalvin
+                                    </div>
+                                    <div class="residence-slide__descr text">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/2.jpg" alt="Slide 5">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Hard line orchar
+                                    </div>
+                                    <div class="residence-slide__descr">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide residence-slide">
+                                <div class="residence-slide__thumb">
+                                    <img src="img/residence/3.jpg" alt="Slide 6">
+                                </div>
+                                <div class="residence-slide__text">
+                                    <div class="residence-slide__title">
+                                        Allpine lenevote
+                                    </div>
+                                    <div class="residence-slide__descr">
+                                        1087 Pin Oak Drive, Clinton, USA
+                                    </div>
+                                </div>
+                                <div class="residence-slide__labels">
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bed"></use>
+                                        </svg>
+                                        <span>4 beds</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#bath"></use>
+                                        </svg>
+                                        <span>2 bath</span>
+                                    </div>
+                                    <div class="residence-slide__label">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor">
+                                            <use xlink:href="img/icons/sprite.svg#square"></use>
+                                        </svg>
+                                        <span>1203 Sqft.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-buttons">
+                        <div class="residence-slider-btn residence-slider-prev"></div>
+                        <div class="residence-slider-btn residence-slider-next"></div>
+                    </div>
+                </div>
+                <div class="residence__link">
+                    <a href="#" class="link">View all properties</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="container choose__container">
+                <h2 class="choose__title title">Why to choose us</h2>
+                <div class="choose__wrapper">
+                    <div class="choose__item">
+                        <div class="choose__img">
+                            <svg width="241" height="242" viewBox="0 0 241 242" stroke="currentColor">
+                                <use xlink:href="img/icons/sprite.svg#search"></use>
+                            </svg>
+                        </div>
+                        <div class="choose__header">Easy to find</div>
+                        <div class="choose__text text">
+                            Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae,
+                            nec mattis lectus quam pretium amet facilisis.
+                        </div>
+                    </div>
+
+                    <div class="choose__item">
+                        <div class="choose__img">
+                            <svg width="512" height="481" viewBox="0 0 512 481" fill="currentColor">
+                                <use xlink:href="img/icons/sprite.svg#price"></use>
+                            </svg>
+                        </div>
+                        <div class="choose__header">Affordable Prices</div>
+                        <div class="choose__text text">
+                            Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
+                            pretium amet facilisis.
+                        </div>
+                    </div>
+
+                    <div class="choose__item">
+                        <div class="choose__img">
+                            <svg width="84" height="72" viewBox="0 0 84 72" fill="currentColor">
+                                <use xlink:href="img/icons/sprite.svg#timer"></use>
+                            </svg>
+                        </div>
+                        <div class="choose__header">Quickly Process</div>
+                        <div class="choose__text text">
+                            Ac, gravida in diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua
+                            dui pellentesque.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews-deco">
+                <svg width="339" height="1138" viewBox="0 0 339 1138" stroke="currentColor">
+                    <use xlink:href="img/icons/sprite.svg#reviews-deco"></use>
+                </svg>
+            </div>
+            <div class="container reviews__container">
+                <div class="reviews__quotes">“</div>
+                <div class="reviews__slider reviews-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="reviews-slider__slide swiper-slide">
+                            <div class="reviews-slider__text">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor.
+                            </div>
+                            <div class="reviews-slider__info">
+                                <div class="reviews-slider__name">Elena Pravo</div>
+                                <div class="reviews-slider__job text">Ceo, Upstate</div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-slider__slide swiper-slide">
+                            <div class="reviews-slider__text">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor. Massa semper non rutrum orci facilisi sit. Lectus
+                                porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor.
+                            </div>
+                            <div class="reviews-slider__info">
+                                <div class="reviews-slider__name">Elena Pravo</div>
+                                <div class="reviews-slider__job text">Ceo, Upstate</div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-slider__slide swiper-slide">
+                            <div class="reviews-slider__text">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor. Massa semper non rutrum orci facilisi sit. Lectus
+                                porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor. Massa semper non rutrum orci facilisi sit. Lectus
+                                porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor. Massa semper non rutrum orci facilisi sit. Lectus
+                                porta quam a fringilla eget viverra
+                                sem. Vulputate massa hendrerit
+                                turpis gravida tempor, porttitor.
+                            </div>
+                            <div class="reviews-slider__info">
+                                <div class="reviews-slider__name">Elena Pravo</div>
+                                <div class="reviews-slider__job text">Ceo, Upstate</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-slider__buttons">
+                        <div class="reviews-slider-btn reviews-slider-prev">
+                            <svg width="23" height="38" viewBox="0 0 23 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.56705 38L23 19L4.56705 0L0 4.70755L13.8659 19L0 33.2924L4.56705 38Z" />
+                            </svg>
+                        </div>
+                        <div class="reviews-slider-btn reviews-slider-next">
+                            <svg width="23" height="38" viewBox="0 0 23 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.56705 38L23 19L4.56705 0L0 4.70755L13.8659 19L0 33.2924L4.56705 38Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container gallery__container">
+                <div class="gallery__box">
+                    <div class="gallery__item">
+                        <img src="img/gallery/1.jpg" alt="Image">
+                    </div>
+                    <div class="gallery__item">
+                        <img src="img/gallery/2.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="gallery__info">
+                    <h2 class="gallery__title title">We help people to find homes</h2>
+                    <div class="gallery__text text">
+                        Mauris orci donec blandit maecenas. Orci lorem purus porttitor massa consectetur. Neque,
+                        vestibulum sed varius magna et
+                        at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec
+                        sed morbi congue eget
+                        lorem viverra porta id lobortis.
+                    </div>
+                    <a href="#" class="gallery__link link">Get in touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="simply">
+            <div class="simply-wave-deco">
+                <svg width="352" height="617" viewBox="0 0 352 617" stroke="currentColor">
+                    <use xlink:href="img/icons/sprite.svg#simply-wave-deco"></use>
+                </svg>
+            </div>
+            <div class="simply-rect-deco">
+                <svg width="75" height="182" viewBox="0 0 75 182" fill="currentColor">
+                    <use xlink:href="img/icons/sprite.svg#simply-rect-deco"></use>
+                </svg>
+            </div>
+
+            <div class="container simply__container">
+                <div class="simply__slogan">Let’s simply begin with rentiz.</div>
+                <div class="simply__content">
+                    <div class="simply__text text">
+                        Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet
+                        volutpat quis velit. Blandit
+                        aliquam donec sed morbi congue eget lorem viverra porta id lobortis.
+                    </div>
+                    <a href="#" class="simply__link link">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__main">
+                <div class="footer__block">
+                    <a href="#" class="footer__link"><img src="img/logo.svg" alt="Logo"></a>
+                    <div class="footer__text text">
+                        Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue.
+                    </div>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <use xlink:href="img/icons/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social">
+                            <svg width="19" height="19" viewBox="0 0 20 20">
+                                <use xlink:href="img/icons/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social">
+                            <svg width="22" height="17" viewBox="0 0 22 17">
+                                <use xlink:href="img/icons/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social">
+                            <svg width="21" height="15" viewBox="0 0 21 15">
+                                <use xlink:href="img/icons/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__block links-footer">
+                    <div class="links-footer__header">Project</div>
+                    <ul class="links-footer__list">
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Houses</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Rooms</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Flats</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Appartments</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__block links-footer">
+                    <div class="links-footer__header">Company</div>
+                    <ul class="links-footer__list">
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">How we work</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Capital</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Security</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__block links-footer">
+                    <div class="links-footer__header">Movement</div>
+                    <ul class="links-footer__list">
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Who are we</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Support us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__block links-footer">
+                    <div class="links-footer__header">Help</div>
+                    <ul class="links-footer__list">
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Privacy</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Condition</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">Blog</a>
+                        </li>
+                        <li class="links-footer__item">
+                            <a href="#" class="links-footer__link text">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <span class="text">Copyright ©TemplatesJungle. 2022. All right reserved</span>
+                <span class="text">Design by: Designer</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
