@@ -1,2 +1,2 @@
 # Landing page "Сайт по продаже недвижимости"
-### Демо: https://sbykoderova.github.io/britlex/
+### Демо: https://sbykoderova.github.io/rentiz/
